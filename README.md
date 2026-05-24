@@ -66,9 +66,6 @@ ml-portfolio-bot/
 │   ├── v45_btc_usd.joblib
 │   └── v45_eth_usd.joblib
 │
-├── onchain_cache/        # Кеш за Fear & Greed данни
-│   └── fear_greed.csv
-│
 ├── funding_rate.csv      # Funding Rate история за BTC
 ├── bot_state_v45.json    # Текущи отворени позиции
 ├── portfolio_state_v45.json  # История на сделките + Hard Stop статус
@@ -80,11 +77,11 @@ ml-portfolio-bot/
 
 ---
 
-## 🚀 Инсталация и стартиране
+##  Инсталация и стартиране
 
 ### 1. Клониране и инсталация
 ```bash
-git clone https://github.com/<your-username>/ml-portfolio-bot.git
+git clone https://github.com/Cat4209/ml-portfolio-bot.git
 cd ml-portfolio-bot
 pip install -r requirements.txt
 ```
@@ -169,8 +166,6 @@ xgboost, lightgbm, optuna
 yfinance, requests, matplotlib
 joblib, tqdm
 ```
-
-Пълен списък: `requirements.txt`
 
 ---
 
